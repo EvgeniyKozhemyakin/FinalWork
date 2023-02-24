@@ -33,11 +33,11 @@ Console.Write("Введите элементы массива через про�
 string str = Console.ReadLine();
 string[] strArray = str.Split(' ');
 
-string[] arrLessThree = ArrLessThreeChar(strArray);
+string[] arrayLessThree = ArrLessThreeChar(strArray);
 
 PrintArray(strArray);
 Console.Write(" -> ");
-PrintArray(arrLessThree);
+PrintArray(arrayLessThree);
 
 
 
